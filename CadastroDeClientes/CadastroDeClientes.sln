@@ -3,13 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroDeClientes.Domain", "CadastroDeClientes.Domain\CadastroDeClientes.Domain.csproj", "{1FF36352-4865-4FA4-8AE4-93DEB48D933E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CadastroDeClientes.Domain", "CadastroDeClientes.Domain\CadastroDeClientes.Domain.csproj", "{1FF36352-4865-4FA4-8AE4-93DEB48D933E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroDeClientes.Application", "CadastroDeClientes.Application\CadastroDeClientes.Application.csproj", "{633B7185-15A9-49A2-A7E7-D5F8A58D90E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CadastroDeClientes.Application", "CadastroDeClientes.Application\CadastroDeClientes.Application.csproj", "{633B7185-15A9-49A2-A7E7-D5F8A58D90E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroDeClientes.Infra", "CadastroDeClientes.Infra\CadastroDeClientes.Infra.csproj", "{76379622-2631-4603-B018-8883771CFE50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CadastroDeClientes.Infra", "CadastroDeClientes.Infra\CadastroDeClientes.Infra.csproj", "{76379622-2631-4603-B018-8883771CFE50}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1FF36352-4865-4FA4-8AE4-93DEB48D933E} = {1FF36352-4865-4FA4-8AE4-93DEB48D933E}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroDeClientes.WebApi", "CadastroDeClientes.WebApi\CadastroDeClientes.WebApi.csproj", "{C0E7F09C-F50C-464B-A076-A55498F63337}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CadastroDeClientes.WebApi", "CadastroDeClientes.WebApi\CadastroDeClientes.WebApi.csproj", "{C0E7F09C-F50C-464B-A076-A55498F63337}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

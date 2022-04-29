@@ -19,7 +19,7 @@ namespace CadastroDeClientes.Domain.Entities
     {
         public String Nome { get; private set; }
         public DateOnly DataDeNascimento { get; private set; }
-        public int Documento { get; private set; }
+        public int? Documento { get; private set; }
         public String Endereco { get; private set; }
         public DateOnly DataDoCadastro { get; private set; }
         public Boolean ClienteAtivo { get; private set; }
