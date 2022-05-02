@@ -1,0 +1,12 @@
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\CadastroDeClientes\CadastroDeClientes.Application\bin\Debug\net6.0\CadastroDeClientes.Application.deps.json
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\CadastroDeClientes\CadastroDeClientes.Application\bin\Debug\net6.0\CadastroDeClientes.Application.dll
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\CadastroDeClientes\CadastroDeClientes.Application\bin\Debug\net6.0\CadastroDeClientes.Application.pdb
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\CadastroDeClientes\CadastroDeClientes.Application\obj\Debug\net6.0\CadastroDeClientes.Application.csproj.AssemblyReference.cache
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\CadastroDeClientes\CadastroDeClientes.Application\obj\Debug\net6.0\CadastroDeClientes.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\CadastroDeClientes\CadastroDeClientes.Application\obj\Debug\net6.0\CadastroDeClientes.Application.AssemblyInfoInputs.cache
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\CadastroDeClientes\CadastroDeClientes.Application\obj\Debug\net6.0\CadastroDeClientes.Application.AssemblyInfo.cs
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\CadastroDeClientes\CadastroDeClientes.Application\obj\Debug\net6.0\CadastroDeClientes.Application.csproj.CoreCompileInputs.cache
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\CadastroDeClientes\CadastroDeClientes.Application\obj\Debug\net6.0\CadastroDeClientes.Application.dll
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\CadastroDeClientes\CadastroDeClientes.Application\obj\Debug\net6.0\refint\CadastroDeClientes.Application.dll
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\CadastroDeClientes\CadastroDeClientes.Application\obj\Debug\net6.0\CadastroDeClientes.Application.pdb
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\CadastroDeClientes\CadastroDeClientes.Application\obj\Debug\net6.0\ref\CadastroDeClientes.Application.dll

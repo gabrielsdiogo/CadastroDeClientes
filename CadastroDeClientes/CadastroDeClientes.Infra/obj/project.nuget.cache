@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IK1hbNYCT5zYa8AH9ZMkShM4aC6hD/ThEyjDTP1yM2iVX8I+RduBV9Y/1p0ODS4JcBRqIcrqQGdjOvMpDcUQ7Q==",
+  "dgSpecHash": "uW+0buVmxHPgBdi+thaTzdyp3mFbRDBvtYIdmUufAV2HF8xeVAxFV30rdxCw/ngFQQ5ObBYN5UV64aeD3t2HSw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\CadastroDeClientes\\CadastroDeClientes.Infra\\CadastroDeClientes.Infra.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\Gabri\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.4\\microsoft.entityframeworkcore.analyzers.6.0.4.nupkg.sha512",
     "C:\\Users\\Gabri\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.4\\microsoft.entityframeworkcore.design.6.0.4.nupkg.sha512",
     "C:\\Users\\Gabri\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.4\\microsoft.entityframeworkcore.relational.6.0.4.nupkg.sha512",
+    "C:\\Users\\Gabri\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.4\\microsoft.entityframeworkcore.tools.6.0.4.nupkg.sha512",
     "C:\\Users\\Gabri\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Gabri\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
     "C:\\Users\\Gabri\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",

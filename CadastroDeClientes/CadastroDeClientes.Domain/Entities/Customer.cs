@@ -19,7 +19,7 @@ namespace CadastroDeClientes.Domain.Entities
     {
         public String Nome { get; private set; }
         public DateOnly DataDeNascimento { get; private set; }
-        public int? Documento { get; private set; }
+        public int Documento { get; private set; }
         public String Endereco { get; private set; }
         public DateOnly DataDoCadastro { get; private set; }
         public Boolean ClienteAtivo { get; private set; }
@@ -41,15 +41,11 @@ namespace CadastroDeClientes.Domain.Entities
 
             DomainExceptionValidation.When(string.IsNullOrEmpty(nome), "Nome is invalid!");
 
-            DomainExceptionValidation.When(dataDeNascimento == null, "Data is invalid!");
-
-            DomainExceptionValidation.When(dataDoCadastro == null, "Data is invalid!");
-
             DomainExceptionValidation.When(documento < 0, "Documento is invalid!");
 
             DomainExceptionValidation.When(string.IsNullOrEmpty(endereco), "Endereço is invalid!");
 
-            DomainExceptionValidation.When(clienteAtivo == null, "Cliente Ativo is blank!");
+          
 
             Nome = nome;
             DataDeNascimento = dataDeNascimento;

@@ -11,7 +11,7 @@ namespace CadastroDeClientes.Domain.Interfaces
     {
         Task<IEnumerable<Customer>> GetCustomers();
 
-        Task<Customer> GetCustomerByDoc(int? documento);
+        Task<Customer> GetCustomerByDoc(int documento);
 
         Task<Customer> Create(Customer customer);
         Task<Customer> Update(Customer customer);

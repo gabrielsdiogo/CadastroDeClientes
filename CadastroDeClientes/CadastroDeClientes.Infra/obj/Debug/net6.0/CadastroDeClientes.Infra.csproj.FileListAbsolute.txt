@@ -1,0 +1,17 @@
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\CadastroDeClientes\CadastroDeClientes.Infra\bin\Debug\net6.0\CadastroDeClientes.Infra.deps.json
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\CadastroDeClientes\CadastroDeClientes.Infra\bin\Debug\net6.0\CadastroDeClientes.Infra.runtimeconfig.json
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\CadastroDeClientes\CadastroDeClientes.Infra\bin\Debug\net6.0\CadastroDeClientes.Infra.dll
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\CadastroDeClientes\CadastroDeClientes.Infra\bin\Debug\net6.0\CadastroDeClientes.Infra.pdb
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\CadastroDeClientes\CadastroDeClientes.Infra\bin\Debug\net6.0\CadastroDeClientes.Domain.dll
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\CadastroDeClientes\CadastroDeClientes.Infra\bin\Debug\net6.0\CadastroDeClientes.Domain.pdb
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\CadastroDeClientes\CadastroDeClientes.Infra\obj\Debug\net6.0\CadastroDeClientes.Infra.csproj.AssemblyReference.cache
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\CadastroDeClientes\CadastroDeClientes.Infra\obj\Debug\net6.0\CadastroDeClientes.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\CadastroDeClientes\CadastroDeClientes.Infra\obj\Debug\net6.0\CadastroDeClientes.Infra.AssemblyInfoInputs.cache
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\CadastroDeClientes\CadastroDeClientes.Infra\obj\Debug\net6.0\CadastroDeClientes.Infra.AssemblyInfo.cs
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\CadastroDeClientes\CadastroDeClientes.Infra\obj\Debug\net6.0\CadastroDeClientes.Infra.csproj.CoreCompileInputs.cache
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\CadastroDeClientes\CadastroDeClientes.Infra\obj\Debug\net6.0\CadastroDeClientes.Infra.csproj.CopyComplete
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\CadastroDeClientes\CadastroDeClientes.Infra\obj\Debug\net6.0\CadastroDeClientes.Infra.dll
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\CadastroDeClientes\CadastroDeClientes.Infra\obj\Debug\net6.0\refint\CadastroDeClientes.Infra.dll
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\CadastroDeClientes\CadastroDeClientes.Infra\obj\Debug\net6.0\CadastroDeClientes.Infra.pdb
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\CadastroDeClientes\CadastroDeClientes.Infra\obj\Debug\net6.0\CadastroDeClientes.Infra.genruntimeconfig.cache
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\CadastroDeClientes\CadastroDeClientes.Infra\obj\Debug\net6.0\ref\CadastroDeClientes.Infra.dll
