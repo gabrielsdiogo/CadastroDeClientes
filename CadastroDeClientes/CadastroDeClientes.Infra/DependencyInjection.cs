@@ -1,4 +1,7 @@
-﻿using CadastroDeClientes.Domain.Interfaces;
+﻿using CadastroDeClientes.Application.Interfaces;
+using CadastroDeClientes.Application.Mappings;
+using CadastroDeClientes.Application.Services;
+using CadastroDeClientes.Domain.Interfaces;
 using CadastroDeClientes.Infra.Context;
 using CadastroDeClientes.Infra.Repositories;
 using Microsoft.EntityFrameworkCore;
@@ -21,6 +24,8 @@ namespace CadastroDeClientes.Infra
             ), b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)));
 
             services.AddScoped<ICustomerRepository, CustomerRepository>();
+            services.AddScoped<ICustomerService, CustomerService>();
+            services.AddAutoMapper(typeof(DomainToDTOMappingProfile));
 
             return services;
         }

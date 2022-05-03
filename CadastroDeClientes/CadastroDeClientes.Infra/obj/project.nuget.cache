@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "uW+0buVmxHPgBdi+thaTzdyp3mFbRDBvtYIdmUufAV2HF8xeVAxFV30rdxCw/ngFQQ5ObBYN5UV64aeD3t2HSw==",
+  "dgSpecHash": "66+0KPPhxwS8j6Jqm12mCY3czj3U1mVocafO2ObcIU0gPZ9Ty0HUaJ88WYVh7xUgu1zuKJJzSh5dP7HL0YhLTA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\CadastroDeClientes\\CadastroDeClientes.Infra\\CadastroDeClientes.Infra.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Gabri\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\Gabri\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\Gabri\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\Gabri\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Gabri\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.4\\microsoft.entityframeworkcore.6.0.4.nupkg.sha512",
     "C:\\Users\\Gabri\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.4\\microsoft.entityframeworkcore.abstractions.6.0.4.nupkg.sha512",
     "C:\\Users\\Gabri\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.4\\microsoft.entityframeworkcore.analyzers.6.0.4.nupkg.sha512",

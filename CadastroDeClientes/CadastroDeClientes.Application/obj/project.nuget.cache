@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "GSqndGJCbpgFcRVewZCkvtDigaVYt7bNg7G1VtIPUUHTWgTm4lC8SmQCfMF+KstiPZswQf4K0ADiENRSV1EGdQ==",
+  "dgSpecHash": "J4wyQ5GKrS8NAuJj/jLAF4a/R/4q7X/mEe6pS0/YqQ0YbMczmpuadbnVd0LoMIzaz37g1ewJwGfixzoeMUHIKQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\CadastroDeClientes\\CadastroDeClientes.Application\\CadastroDeClientes.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Gabri\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\Gabri\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }
