@@ -15,7 +15,7 @@ namespace CadastroDeClientes.WebApi
             services.AddInfrastructure(Configuration);
             services.AddControllersWithViews();
 
-
+            
             services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             services.AddEndpointsApiExplorer();
