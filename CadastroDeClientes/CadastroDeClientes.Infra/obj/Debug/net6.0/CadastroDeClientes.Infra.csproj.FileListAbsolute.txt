@@ -15,3 +15,5 @@ C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\CadastroDeClientes\CadastroDeCli
 C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\CadastroDeClientes\CadastroDeClientes.Infra\obj\Debug\net6.0\CadastroDeClientes.Infra.pdb
 C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\CadastroDeClientes\CadastroDeClientes.Infra\obj\Debug\net6.0\CadastroDeClientes.Infra.genruntimeconfig.cache
 C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\CadastroDeClientes\CadastroDeClientes.Infra\obj\Debug\net6.0\ref\CadastroDeClientes.Infra.dll
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\CadastroDeClientes\CadastroDeClientes.Infra\bin\Debug\net6.0\CadastroDeClientes.Application.dll
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\CadastroDeClientes\CadastroDeClientes.Infra\bin\Debug\net6.0\CadastroDeClientes.Application.pdb

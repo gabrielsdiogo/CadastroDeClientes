@@ -10,3 +10,6 @@ C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\CadastroDeClientes\CadastroDeCli
 C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\CadastroDeClientes\CadastroDeClientes.Application\obj\Debug\net6.0\refint\CadastroDeClientes.Application.dll
 C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\CadastroDeClientes\CadastroDeClientes.Application\obj\Debug\net6.0\CadastroDeClientes.Application.pdb
 C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\CadastroDeClientes\CadastroDeClientes.Application\obj\Debug\net6.0\ref\CadastroDeClientes.Application.dll
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\CadastroDeClientes\CadastroDeClientes.Application\bin\Debug\net6.0\CadastroDeClientes.Domain.dll
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\CadastroDeClientes\CadastroDeClientes.Application\bin\Debug\net6.0\CadastroDeClientes.Domain.pdb
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\CadastroDeClientes\CadastroDeClientes.Application\obj\Debug\net6.0\CadastroDeClientes.Application.csproj.CopyComplete
