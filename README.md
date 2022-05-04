@@ -1,6 +1,8 @@
 # Cadastro De Clientes
 
 
+<img src="Projeto_CadCustomerIMG.png">
+
 Projeto utilizando DDD
 Code first - Utilizando entity framework
 Criação do dominio, pensando nas regras que o dominio pode ter.
