@@ -27,15 +27,16 @@ namespace CadastroDeClientes.Application.Services
             return _mapper.Map<IEnumerable<CustomerDTO>>(customerEntity);
         }
 
-        public async Task<CustomerDTO> GetCustomerByDoc(int documento)
+        public async Task<CustomerDTO> GetCustomerByDoc(long documento)
         {
-            var customerEntity = await _customerRepository.GetCustomerByDoc(documento);
+            var customerEntity =  _customerRepository.GetCustomerByDoc(documento).Result;
             return _mapper.Map<CustomerDTO>(customerEntity);
         }
 
         public async Task Add(CustomerDTO customerDTO)
         {
             var customerEntity = _mapper.Map<Customer>(customerDTO);
+            
             await _customerRepository.Create(customerEntity);
         }
 
@@ -45,7 +46,7 @@ namespace CadastroDeClientes.Application.Services
             await _customerRepository.Update(customerEntity);
         }
 
-        public async Task Remove(int documento)
+        public async Task Remove(long documento)
         {
             var customerEntity = _customerRepository.GetCustomerByDoc(documento).Result;
             await _customerRepository.Remove(customerEntity);

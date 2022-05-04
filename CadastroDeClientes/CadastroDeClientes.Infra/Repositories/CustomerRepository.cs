@@ -27,7 +27,7 @@ namespace CadastroDeClientes.Infra.Repositories
             return customer;
         }
 
-        public async Task<Customer> GetCustomerByDoc(int documento)
+        public async Task<Customer> GetCustomerByDoc(long documento)
         {
             return await _customerContext.Customers.FindAsync(documento);
         }

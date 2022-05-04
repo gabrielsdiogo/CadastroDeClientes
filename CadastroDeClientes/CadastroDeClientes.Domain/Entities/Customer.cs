@@ -19,26 +19,27 @@ namespace CadastroDeClientes.Domain.Entities
     {
         public String Nome { get; private set; }
         public String DataDeNascimento { get; private set; }
-        public int Documento { get; private set; }
+        public Int64 Documento { get; private set; }
 
 
         public String Endereco { get; private set; }
         public String DataDoCadastro { get; private set; }
         public Boolean ClienteAtivo { get; private set; }
 
-        
-        public Customer(string nome, String dataDeNascimento, int documento, string endereco, String dataDoCadastro, bool clienteAtivo)
+       
+        public Customer(string nome, String dataDeNascimento, Int64 documento, string endereco, bool clienteAtivo)
         {
-            ValidateDomain(nome, dataDeNascimento, documento, endereco, dataDoCadastro, clienteAtivo); 
+            
+            ValidateDomain(nome, dataDeNascimento, documento, endereco, clienteAtivo); 
         }
 
 
-        public void Update(string nome, String dataDeNascimento, int documento, string endereco, String dataDoCadastro, bool clienteAtivo)
+        public void Update(string nome, String dataDeNascimento, Int64 documento, string endereco,  bool clienteAtivo)
         {
-            ValidateDomain(nome, dataDeNascimento, documento, endereco, dataDoCadastro, clienteAtivo);
+            ValidateDomain(nome, dataDeNascimento, documento, endereco,  clienteAtivo);
         }
 
-        private void  ValidateDomain(string nome, String dataDeNascimento, int documento, string endereco, String dataDoCadastro, bool clienteAtivo)
+        private void  ValidateDomain(string nome, String dataDeNascimento, Int64 documento, string endereco, bool clienteAtivo)
         {
 
             DomainExceptionValidation.When(string.IsNullOrEmpty(nome), "Nome is invalid!");
@@ -53,8 +54,8 @@ namespace CadastroDeClientes.Domain.Entities
             DataDeNascimento = dataDeNascimento;
             Documento = documento;
             Endereco = endereco;
-            DataDoCadastro = dataDoCadastro;
-            ClienteAtivo = clienteAtivo;
+            DataDoCadastro = DateTime.UtcNow.ToString("dd/MM/yyyy");
+            ClienteAtivo = clienteAtivo ? true : false;
         }
     }
 }

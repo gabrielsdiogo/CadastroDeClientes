@@ -11,11 +11,11 @@ namespace CadastroDeClientes.Application.Interfaces
     public interface ICustomerService
     {
         Task<IEnumerable<CustomerDTO>> GetCustomers();
-        Task<CustomerDTO> GetCustomerByDoc(int documento);
+        Task<CustomerDTO> GetCustomerByDoc(long documento);
 
         Task Add(CustomerDTO customerDTO);
         Task Update(CustomerDTO customerDTO);
-        Task Remove(int documento);
+        Task Remove(long documento);
         
     }
 }

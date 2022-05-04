@@ -15,13 +15,20 @@ namespace CadastroDeClientes.Application.DTOs
         public String Nome { get;  set; }
 
         [Required(ErrorMessage = "The Date is required")]
-        public DateOnly DataDeNascimento { get;  set; }
+        public String DataDeNascimento { get;  set; }
 
         [Required(ErrorMessage = "Document is required")]
-        public int Documento { get;  set; }
+        public Int64 Documento { get;  set; }
 
         [Required(ErrorMessage = "The Endereco is required")]
         public String Endereco { get;  set; }
+
+        [Required(ErrorMessage = "The Customer Status is required")]
+        public Boolean ClienteAtivo{ get; set; }
+
+        
+
+        
 
     }
 }
