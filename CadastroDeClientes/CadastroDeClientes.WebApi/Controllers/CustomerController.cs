@@ -65,5 +65,17 @@ namespace CadastroDeClientes.WebApi.Controllers
             return Ok(customerDto);
 
         }
+
+        [HttpDelete("{doc:int}")]
+        public async Task<ActionResult<CustomerDTO>> Delete(int doc)
+        {
+            var customer = _customerService.GetCustomerByDoc(doc);
+            if (customer == null)
+                return NotFound("Category not found");
+
+            await _customerService.Remove(doc);
+            return Ok(customer);
+
+        }
     }
 }

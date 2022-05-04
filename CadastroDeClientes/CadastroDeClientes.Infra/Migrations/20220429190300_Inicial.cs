@@ -17,9 +17,9 @@ namespace CadastroDeClientes.Infra.Migrations
                     Documento = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     Nome = table.Column<string>(type: "text", nullable: false),
-                    DataDeNascimento = table.Column<DateOnly>(type: "date", nullable: false),
+                    DataDeNascimento = table.Column<string>(type: "text", nullable: false),
                     Endereco = table.Column<string>(type: "text", nullable: false),
-                    DataDoCadastro = table.Column<DateOnly>(type: "date", nullable: false),
+                    DataDoCadastro = table.Column<string>(type: "text", nullable: false),
                     ClienteAtivo = table.Column<bool>(type: "boolean", nullable: false)
                 },
                 constraints: table =>
