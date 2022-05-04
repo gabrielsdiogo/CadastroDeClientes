@@ -20,9 +20,15 @@ O cliente deve ser composto com as seguintes informações:
 Frameworks utilizados:
 
 Swagger
+
 Docker
+
 Injeção de dependencia (Autofac)
+
 PostgreSQL
+
 FluentValidator
+
 FluentAssertions
+
 TDD
