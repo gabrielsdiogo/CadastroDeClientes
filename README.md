@@ -3,7 +3,7 @@
 
 <img src="Projeto_CadCustomerIMG.png">
 
-Projeto utilizando DDD
+Projeto para estudos utilizando DDD
 Code first - Utilizando entity framework
 Criação do dominio, pensando nas regras que o dominio pode ter.
 API rest - CRUD
