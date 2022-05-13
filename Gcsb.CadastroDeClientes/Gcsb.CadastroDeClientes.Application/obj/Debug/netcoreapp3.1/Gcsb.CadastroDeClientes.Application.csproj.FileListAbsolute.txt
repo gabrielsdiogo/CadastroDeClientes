@@ -1,0 +1,13 @@
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\Gcsb.CadastroDeClientes\Gcsb.CadastroDeClientes.Application\bin\Debug\netcoreapp3.1\Gcsb.CadastroDeClientes.Application.deps.json
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\Gcsb.CadastroDeClientes\Gcsb.CadastroDeClientes.Application\bin\Debug\netcoreapp3.1\Gcsb.CadastroDeClientes.Application.dll
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\Gcsb.CadastroDeClientes\Gcsb.CadastroDeClientes.Application\bin\Debug\netcoreapp3.1\Gcsb.CadastroDeClientes.Application.pdb
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\Gcsb.CadastroDeClientes\Gcsb.CadastroDeClientes.Application\bin\Debug\netcoreapp3.1\Gcsb.CadastroDeClientes.Domain.dll
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\Gcsb.CadastroDeClientes\Gcsb.CadastroDeClientes.Application\bin\Debug\netcoreapp3.1\Gcsb.CadastroDeClientes.Domain.pdb
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\Gcsb.CadastroDeClientes\Gcsb.CadastroDeClientes.Application\obj\Debug\netcoreapp3.1\Gcsb.CadastroDeClientes.Application.csproj.AssemblyReference.cache
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\Gcsb.CadastroDeClientes\Gcsb.CadastroDeClientes.Application\obj\Debug\netcoreapp3.1\Gcsb.CadastroDeClientes.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\Gcsb.CadastroDeClientes\Gcsb.CadastroDeClientes.Application\obj\Debug\netcoreapp3.1\Gcsb.CadastroDeClientes.Application.AssemblyInfoInputs.cache
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\Gcsb.CadastroDeClientes\Gcsb.CadastroDeClientes.Application\obj\Debug\netcoreapp3.1\Gcsb.CadastroDeClientes.Application.AssemblyInfo.cs
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\Gcsb.CadastroDeClientes\Gcsb.CadastroDeClientes.Application\obj\Debug\netcoreapp3.1\Gcsb.CadastroDeClientes.Application.csproj.CoreCompileInputs.cache
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\Gcsb.CadastroDeClientes\Gcsb.CadastroDeClientes.Application\obj\Debug\netcoreapp3.1\Gcsb.CadastroDeClientes.Application.csproj.CopyComplete
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\Gcsb.CadastroDeClientes\Gcsb.CadastroDeClientes.Application\obj\Debug\netcoreapp3.1\Gcsb.CadastroDeClientes.Application.dll
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\Gcsb.CadastroDeClientes\Gcsb.CadastroDeClientes.Application\obj\Debug\netcoreapp3.1\Gcsb.CadastroDeClientes.Application.pdb

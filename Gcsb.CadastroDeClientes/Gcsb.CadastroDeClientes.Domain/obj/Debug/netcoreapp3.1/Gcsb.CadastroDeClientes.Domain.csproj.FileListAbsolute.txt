@@ -1,0 +1,10 @@
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\Gcsb.CadastroDeClientes\Gcsb.CadastroDeClientes.Domain\bin\Debug\netcoreapp3.1\Gcsb.CadastroDeClientes.Domain.deps.json
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\Gcsb.CadastroDeClientes\Gcsb.CadastroDeClientes.Domain\bin\Debug\netcoreapp3.1\Gcsb.CadastroDeClientes.Domain.dll
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\Gcsb.CadastroDeClientes\Gcsb.CadastroDeClientes.Domain\bin\Debug\netcoreapp3.1\Gcsb.CadastroDeClientes.Domain.pdb
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\Gcsb.CadastroDeClientes\Gcsb.CadastroDeClientes.Domain\obj\Debug\netcoreapp3.1\Gcsb.CadastroDeClientes.Domain.csproj.AssemblyReference.cache
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\Gcsb.CadastroDeClientes\Gcsb.CadastroDeClientes.Domain\obj\Debug\netcoreapp3.1\Gcsb.CadastroDeClientes.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\Gcsb.CadastroDeClientes\Gcsb.CadastroDeClientes.Domain\obj\Debug\netcoreapp3.1\Gcsb.CadastroDeClientes.Domain.AssemblyInfoInputs.cache
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\Gcsb.CadastroDeClientes\Gcsb.CadastroDeClientes.Domain\obj\Debug\netcoreapp3.1\Gcsb.CadastroDeClientes.Domain.AssemblyInfo.cs
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\Gcsb.CadastroDeClientes\Gcsb.CadastroDeClientes.Domain\obj\Debug\netcoreapp3.1\Gcsb.CadastroDeClientes.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\Gcsb.CadastroDeClientes\Gcsb.CadastroDeClientes.Domain\obj\Debug\netcoreapp3.1\Gcsb.CadastroDeClientes.Domain.dll
+C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\Gcsb.CadastroDeClientes\Gcsb.CadastroDeClientes.Domain\obj\Debug\netcoreapp3.1\Gcsb.CadastroDeClientes.Domain.pdb

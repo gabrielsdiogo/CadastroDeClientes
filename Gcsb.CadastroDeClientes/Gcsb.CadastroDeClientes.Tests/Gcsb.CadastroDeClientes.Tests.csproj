@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="5.10.3" />
+	<PackageReference Include="Autofac" Version="6.3.0" />
+	<PackageReference Include="Moq" Version="4.18.0" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+	<PackageReference Include="xunit.frameworks.autofac" Version="0.5.4" />
+	  
+	  
+	  
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.1.0" />  
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="coverlet.collector" Version="3.1.2">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Gcsb.CadastroDeClientes.Application\Gcsb.CadastroDeClientes.Application.csproj" />
+    <ProjectReference Include="..\Gcsb.CadastroDeClientes.Domain\Gcsb.CadastroDeClientes.Domain.csproj" />
+    <ProjectReference Include="..\Gcsb.CadastroDeClientes.Infrastructure\Gcsb.CadastroDeClientes.Infrastructure.csproj" />
+    <ProjectReference Include="..\Gcsb.CadastroDeClientes.WebApi\Gcsb.CadastroDeClientes.WebApi.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Builders\" />
+    <Folder Include="Cases\Application\" />
+    <Folder Include="Cases\Domain\" />
+    <Folder Include="Cases\Infrastructure\" />
+    <Folder Include="Cases\Webapi\" />
+    <Folder Include="Mocks\" />
+  </ItemGroup>
+
+</Project>

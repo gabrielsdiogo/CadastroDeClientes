@@ -1,7 +1,17 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Gcsb.CadastroDeClientes.Domain\Gcsb.CadastroDeClientes.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Boundaries\" />
+    <Folder Include="UseCases\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
 
 </Project>

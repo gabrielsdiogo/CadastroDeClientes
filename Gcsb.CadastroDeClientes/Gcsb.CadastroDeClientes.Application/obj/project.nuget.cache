@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "a59BRfUV39/M1DKO5edbG1gnxJbL349xQxJRo4tTwSYJ6OZ+yekbTprMiBc76YFF4qaLbusOalZMBV209/dsBA==",
+  "dgSpecHash": "A4TuFOu4wMY5b/BbxiImOKGOW1A3rq/TMr9pspzhMdIg6IC7SaZYpz4opraSbItfmUgo2N/bQKyt3r8cLp4W4w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\Gcsb.CadastroDeClientes.Application\\Gcsb.CadastroDeClientes.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Gabri\\.nuget\\packages\\fluentvalidation\\11.0.1\\fluentvalidation.11.0.1.nupkg.sha512",
+    "C:\\Users\\Gabri\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

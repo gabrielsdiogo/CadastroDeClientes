@@ -4,4 +4,35 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.3.0" />
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.ExpressionMapping" Version="5.0.2" />
+    <PackageReference Include="Gcsb.Connect.Pkg.DynamicSearch" Version="1.0.1" />
+	  
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.17">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.17" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.17">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="5.0.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Gcsb.CadastroDeClientes.Application\Gcsb.CadastroDeClientes.Application.csproj" />
+    <ProjectReference Include="..\Gcsb.CadastroDeClientes.Domain\Gcsb.CadastroDeClientes.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Database\Entities\" />
+    <Folder Include="Database\Map\" />
+    <Folder Include="Database\Migration\" />
+    <Folder Include="Database\Repositories\" />
+  </ItemGroup>
+
 </Project>

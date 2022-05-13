@@ -1,0 +1,410 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\Gcsb.CadastroDeClientes.Tests\\Gcsb.CadastroDeClientes.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\Gcsb.CadastroDeClientes.Application\\Gcsb.CadastroDeClientes.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\Gcsb.CadastroDeClientes.Application\\Gcsb.CadastroDeClientes.Application.csproj",
+        "projectName": "Gcsb.CadastroDeClientes.Application",
+        "projectPath": "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\Gcsb.CadastroDeClientes.Application\\Gcsb.CadastroDeClientes.Application.csproj",
+        "packagesPath": "C:\\Users\\Gabri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\Gcsb.CadastroDeClientes.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\NuGet.Config",
+          "C:\\Users\\Gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/globalwebcsb/_packaging/gcsbvivofeed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\Gcsb.CadastroDeClientes.Domain\\Gcsb.CadastroDeClientes.Domain.csproj": {
+                "projectPath": "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\Gcsb.CadastroDeClientes.Domain\\Gcsb.CadastroDeClientes.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\Gcsb.CadastroDeClientes.Domain\\Gcsb.CadastroDeClientes.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\Gcsb.CadastroDeClientes.Domain\\Gcsb.CadastroDeClientes.Domain.csproj",
+        "projectName": "Gcsb.CadastroDeClientes.Domain",
+        "projectPath": "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\Gcsb.CadastroDeClientes.Domain\\Gcsb.CadastroDeClientes.Domain.csproj",
+        "packagesPath": "C:\\Users\\Gabri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\Gcsb.CadastroDeClientes.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\NuGet.Config",
+          "C:\\Users\\Gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/globalwebcsb/_packaging/gcsbvivofeed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\Gcsb.CadastroDeClientes.Infrastructure\\Gcsb.CadastroDeClientes.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\Gcsb.CadastroDeClientes.Infrastructure\\Gcsb.CadastroDeClientes.Infrastructure.csproj",
+        "projectName": "Gcsb.CadastroDeClientes.Infrastructure",
+        "projectPath": "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\Gcsb.CadastroDeClientes.Infrastructure\\Gcsb.CadastroDeClientes.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Gabri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\Gcsb.CadastroDeClientes.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\NuGet.Config",
+          "C:\\Users\\Gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/globalwebcsb/_packaging/gcsbvivofeed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\Gcsb.CadastroDeClientes.Application\\Gcsb.CadastroDeClientes.Application.csproj": {
+                "projectPath": "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\Gcsb.CadastroDeClientes.Application\\Gcsb.CadastroDeClientes.Application.csproj"
+              },
+              "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\Gcsb.CadastroDeClientes.Domain\\Gcsb.CadastroDeClientes.Domain.csproj": {
+                "projectPath": "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\Gcsb.CadastroDeClientes.Domain\\Gcsb.CadastroDeClientes.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "AutoMapper.Extensions.ExpressionMapping": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
+            "Gcsb.Connect.Pkg.DynamicSearch": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\Gcsb.CadastroDeClientes.Tests\\Gcsb.CadastroDeClientes.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\Gcsb.CadastroDeClientes.Tests\\Gcsb.CadastroDeClientes.Tests.csproj",
+        "projectName": "Gcsb.CadastroDeClientes.Tests",
+        "projectPath": "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\Gcsb.CadastroDeClientes.Tests\\Gcsb.CadastroDeClientes.Tests.csproj",
+        "packagesPath": "C:\\Users\\Gabri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\Gcsb.CadastroDeClientes.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\NuGet.Config",
+          "C:\\Users\\Gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/globalwebcsb/_packaging/gcsbvivofeed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\Gcsb.CadastroDeClientes.Application\\Gcsb.CadastroDeClientes.Application.csproj": {
+                "projectPath": "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\Gcsb.CadastroDeClientes.Application\\Gcsb.CadastroDeClientes.Application.csproj"
+              },
+              "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\Gcsb.CadastroDeClientes.Domain\\Gcsb.CadastroDeClientes.Domain.csproj": {
+                "projectPath": "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\Gcsb.CadastroDeClientes.Domain\\Gcsb.CadastroDeClientes.Domain.csproj"
+              },
+              "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\Gcsb.CadastroDeClientes.Infrastructure\\Gcsb.CadastroDeClientes.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\Gcsb.CadastroDeClientes.Infrastructure\\Gcsb.CadastroDeClientes.Infrastructure.csproj"
+              },
+              "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\Gcsb.CadastroDeClientes.WebApi\\Gcsb.CadastroDeClientes.WebApi.csproj": {
+                "projectPath": "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\Gcsb.CadastroDeClientes.WebApi\\Gcsb.CadastroDeClientes.WebApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.10.3, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.frameworks.autofac": {
+              "target": "Package",
+              "version": "[0.5.4, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\Gcsb.CadastroDeClientes.WebApi\\Gcsb.CadastroDeClientes.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\Gcsb.CadastroDeClientes.WebApi\\Gcsb.CadastroDeClientes.WebApi.csproj",
+        "projectName": "Gcsb.CadastroDeClientes.WebApi",
+        "projectPath": "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\Gcsb.CadastroDeClientes.WebApi\\Gcsb.CadastroDeClientes.WebApi.csproj",
+        "packagesPath": "C:\\Users\\Gabri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\Gcsb.CadastroDeClientes.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\NuGet.Config",
+          "C:\\Users\\Gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/globalwebcsb/_packaging/gcsbvivofeed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\Gcsb.CadastroDeClientes.Application\\Gcsb.CadastroDeClientes.Application.csproj": {
+                "projectPath": "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\Gcsb.CadastroDeClientes.Application\\Gcsb.CadastroDeClientes.Application.csproj"
+              },
+              "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\Gcsb.CadastroDeClientes.Domain\\Gcsb.CadastroDeClientes.Domain.csproj": {
+                "projectPath": "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\Gcsb.CadastroDeClientes.Domain\\Gcsb.CadastroDeClientes.Domain.csproj"
+              },
+              "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\Gcsb.CadastroDeClientes.Infrastructure\\Gcsb.CadastroDeClientes.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Gabri\\GitHubPESSOAL\\CadastroDeClientes\\Gcsb.CadastroDeClientes\\Gcsb.CadastroDeClientes.Infrastructure\\Gcsb.CadastroDeClientes.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,8 +1,14 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Gcsb.CadastroDeClientes.Application\Gcsb.CadastroDeClientes.Application.csproj" />
+    <ProjectReference Include="..\Gcsb.CadastroDeClientes.Domain\Gcsb.CadastroDeClientes.Domain.csproj" />
+    <ProjectReference Include="..\Gcsb.CadastroDeClientes.Infrastructure\Gcsb.CadastroDeClientes.Infrastructure.csproj" />
+  </ItemGroup>
 
 
 </Project>
