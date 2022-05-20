@@ -4,6 +4,9 @@ namespace Gcsb.CadastroDeClientes.Infrastructure
 {
     public class InfrastructureException : Exception
     {
-        internal InfrastructureException(String businessMessage) : base(businessMessage) { }
+        public InfrastructureException(string businessMessage)
+               : base(businessMessage)
+        {
+        }
     }
 }

@@ -2,12 +2,34 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>67ba1fc7-facb-46fe-a85b-0479a58e7f44</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
+	<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	<NoWarn>$(NoWarn);1591</NoWarn>
   </PropertyGroup>
 
+	<ItemGroup>
+		<PackageReference Include="Autofac" Version="6.3.0" />
+		<PackageReference Include="Autofac.Configuration" Version="6.0.0" />
+		<PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.2.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="6.0.0" />
+		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.16.1" />
+		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+		<PackageReference Include="Serilog" Version="2.11.0" />
+
+		<PackageReference Include="Gcsb.Connect.Pkg.Serilog" Version="1.0.6" />
+		<PackageReference Include="Gcsb.Connect.Pkg.Startup" Version="1.0.3" />
+	</ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Gcsb.CadastroDeClientes.Application\Gcsb.CadastroDeClientes.Application.csproj" />
     <ProjectReference Include="..\Gcsb.CadastroDeClientes.Domain\Gcsb.CadastroDeClientes.Domain.csproj" />
     <ProjectReference Include="..\Gcsb.CadastroDeClientes.Infrastructure\Gcsb.CadastroDeClientes.Infrastructure.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Infrastructure\Extensions\" />
+    <Folder Include="Infrastructure\Services\" />
   </ItemGroup>
 
 

@@ -8,10 +8,4 @@
     <ProjectReference Include="..\Gcsb.CadastroDeClientes.Domain\Gcsb.CadastroDeClientes.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Boundaries\" />
-    <Folder Include="UseCases\" />
-    <Folder Include="Repositories\" />
-  </ItemGroup>
-
 </Project>

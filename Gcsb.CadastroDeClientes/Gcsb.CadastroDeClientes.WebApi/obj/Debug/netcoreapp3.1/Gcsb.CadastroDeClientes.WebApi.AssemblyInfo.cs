@@ -11,6 +11,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("67ba1fc7-facb-46fe-a85b-0479a58e7f44")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Gcsb.CadastroDeClientes.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

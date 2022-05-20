@@ -1,13 +1,14 @@
-﻿using FluentValidation.Results;
-using Microsoft.EntityFrameworkCore;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using FluentValidation.Results;
+using Gcsb.CadastroDeClientes.Infrastructure.Database.Entities.Customer;
+using Microsoft.EntityFrameworkCore;
 
 namespace Gcsb.CadastroDeClientes.Infrastructure.Database
 {
     public class Context : DbContext
     {
-        //public DbSet<Customer> Customers { get; set; }
+        public DbSet<Customer> Customers { get; set; }
 
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -28,9 +29,10 @@ namespace Gcsb.CadastroDeClientes.Infrastructure.Database
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.ApplyConfiguration(new Entities.Map.Customer.CustomerMap());
             modelBuilder.Ignore<ValidationResult>();
 
-            //modelBuilder.ApplyConfiguration(new CustomerMap());
+            
 
             base.OnModelCreating(modelBuilder);
         }

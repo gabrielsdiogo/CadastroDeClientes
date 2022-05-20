@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+  gcsb.cadastrodeclientes.webapi:
+    image: ${DOCKER_REGISTRY-}gcsbcadastrodeclienteswebapi
+    build:
+      context: .
+      dockerfile: Gcsb.CadastroDeClientes.WebApi/Dockerfile
+      args:
+        FEED_URL: https://pkgs.dev.azure.com/globalwebcsb/_packaging/gcsbvivofeed/nuget/v3/index.json
+    networks:
+        - gcsb-CadastroDeClientes-network
+
+
+networks:
+    gcsb-CadastroDeClientes-network:

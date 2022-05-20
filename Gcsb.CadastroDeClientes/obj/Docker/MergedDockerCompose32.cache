@@ -1,0 +1,67 @@
+name: dockercompose6552151170738780780
+services:
+  gcsb-CadastroDeClientes-database:
+    environment:
+      POSTGRES_DB: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: postgres
+    image: postgres:9.5
+    networks:
+      gcsb-CadastroDeClientes-network: null
+    ports:
+    - mode: ingress
+      target: 5432
+      published: "5432"
+      protocol: tcp
+    restart: always
+    volumes:
+    - type: volume
+      source: pgdata
+      target: /var/lib/postgresql/data
+      volume: {}
+    - type: bind
+      source: C:\Users\Gabri\.aspnet\https
+      target: /https
+      read_only: true
+      bind:
+        create_host_path: true
+  gcsb.cadastrodeclientes.webapi:
+    build:
+      context: C:\Users\Gabri\GitHubPESSOAL\CadastroDeClientes\Gcsb.CadastroDeClientes
+      dockerfile: Gcsb.CadastroDeClientes.WebApi/Dockerfile
+      args:
+        FEED_URL: https://pkgs.dev.azure.com/globalwebcsb/_packaging/gcsbvivofeed/nuget/v3/index.json
+    depends_on:
+      gcsb-CadastroDeClientes-database:
+        condition: service_started
+    environment:
+      'ALLOWED_HOSTS ': ' localhost'
+      'API_DESCRIPTION ': ' "Cadastro De Clientes endpoints"'
+      'API_TITLE ': ' "Gcsb.CadastroDeClientes.Api"'
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_Kestrel__Certificates__Default__Password: docker1234
+      ASPNETCORE_Kestrel__Certificates__Default__Path: /https/aspnetapp.pfx
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      'BASE_URI_AUTH ': ' "https://vivo-int-dev.vivoplataformadigital.com.br"'
+      'DBCONN ': ' "Server=gcsb-CadastroDeClientes-database;Port=5432;Database=postgres;User
+        Id=postgres;Password=postgres;"'
+      'JWT_KEY ': ' "b508f4f3-1f2b-4261-a60a-121b696be82a"'
+      'TRAEFIK_PATH ': ' ""'
+    image: gcsbcadastrodeclienteswebapi
+    networks:
+      gcsb-CadastroDeClientes-network: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "8080"
+      protocol: tcp
+    - mode: ingress
+      target: 443
+      published: "443"
+      protocol: tcp
+networks:
+  gcsb-CadastroDeClientes-network:
+    name: dockercompose6552151170738780780_gcsb-CadastroDeClientes-network
+volumes:
+  pgdata:
+    name: dockercompose6552151170738780780_pgdata

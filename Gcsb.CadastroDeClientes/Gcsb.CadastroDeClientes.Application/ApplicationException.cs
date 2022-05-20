@@ -6,6 +6,6 @@ namespace Gcsb.CadastroDeClientes.Application
 {
     public class ApplicationException : Exception
     {
-        internal ApplicationException(String businessMessage) : base(businessMessage) { }
+        public ApplicationException(String businessMessage) : base(businessMessage) { }
     }
 }

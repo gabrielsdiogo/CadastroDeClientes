@@ -1,12 +1,14 @@
 ﻿using AutoMapper;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using Gcsb.CadastroDeClientes.Domain.Customer;
 
 namespace Gcsb.CadastroDeClientes.Infrastructure.Database.AutoMapperProfile
 {
     public class InfraDomainProfile : Profile
     {
-        //CreateMap<Customer, Entities.Customer>().ReverseMap();
+        public InfraDomainProfile()
+        {
+            CreateMap<Customer, Entities.Customer.Customer>().ReverseMap();
+        }
+        
     }
 }

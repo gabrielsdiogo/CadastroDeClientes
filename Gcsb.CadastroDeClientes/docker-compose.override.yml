@@ -1,0 +1,49 @@
+version: '3.7'
+
+services:
+    gcsb-CadastroDeClientes-database:
+        image: postgres:9.5
+        restart: always
+        environment:  
+          - POSTGRES_USER=postgres
+          - POSTGRES_PASSWORD=postgres
+          - POSTGRES_DB=postgres
+        ports:
+          - 5432:5432
+        volumes:
+          - pgdata:/var/lib/postgresql/data
+        networks:
+          - gcsb-CadastroDeClientes-network
+
+
+    gcsb.cadastrodeclientes.webapi:
+        environment:
+          - ASPNETCORE_ENVIRONMENT=Development
+          - ASPNETCORE_URLS=https://+:443;http://+:80
+          - ALLOWED_HOSTS=localhost
+          - JWT_KEY="b508f4f3-1f2b-4261-a60a-121b696be82a"
+          - API_TITLE="Gcsb.CadastroDeClientes.Api"
+          - API_DESCRIPTION="Cadastro De Clientes endpoints"
+          - TRAEFIK_PATH=""
+          - BASE_URI_AUTH="https://vivo-int-dev.vivoplataformadigital.com.br"
+          - DBCONN=Host=gcsb-CadastroDeClientes-database;Port=5432;Database=postgres;User Id=postgres;Password=postgres;
+          - ASPNETCORE_Kestrel__Certificates__Default__Password=docker1234
+          - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx
+        ports:
+          - 8080:80
+          - 443:443
+        depends_on:
+            - gcsb-CadastroDeClientes-database
+        networks:
+            - gcsb-CadastroDeClientes-network
+        volumes:
+            - ~/.aspnet/https:/https:ro
+
+
+
+networks:
+    gcsb-CadastroDeClientes-network:
+
+
+volumes:
+    pgdata:
