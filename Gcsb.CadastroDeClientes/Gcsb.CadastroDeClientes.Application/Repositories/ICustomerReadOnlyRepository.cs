@@ -10,8 +10,8 @@ namespace Gcsb.CadastroDeClientes.Application.Repositories
     {
         Customer GetById(Guid id);
 
-        IList<Customer> GetByFilter(Expression<Func<Customer, bool>> filter);
+        List<Customer> GetByFilter(Expression<Func<Customer, bool>> filter);
 
-        IList<Customer> GetAll();
+        List<Customer> GetAll();
     }
 }

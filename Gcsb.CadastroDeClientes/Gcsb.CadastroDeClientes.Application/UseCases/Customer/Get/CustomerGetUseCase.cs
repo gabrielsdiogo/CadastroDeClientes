@@ -6,10 +6,10 @@ namespace Gcsb.CadastroDeClientes.Application.UseCases.Customer.Get
 {
     public class CustomerGetUseCase : ICustomerGetUseCase
     {
-        private readonly IOutputPort output;
+        private readonly IOutputPort<Domain.Customer.Customer> output;
         private readonly ICustomerReadOnlyRepository customerReadOnlyRepository;
 
-        public CustomerGetUseCase(IOutputPort output, ICustomerReadOnlyRepository customerReadOnlyRepository)
+        public CustomerGetUseCase(IOutputPort<Domain.Customer.Customer> output, ICustomerReadOnlyRepository customerReadOnlyRepository)
         {
             this.output = output;
             this.customerReadOnlyRepository = customerReadOnlyRepository;

@@ -6,10 +6,10 @@ namespace Gcsb.CadastroDeClientes.Application.UseCases.Customer.Delete
 {
     public class CustomerDeleteUseCase : ICustomerDeleteUseCase
     {
-        private readonly IOutputPort output;
+        private readonly IOutputPort<Guid> output;
         private readonly ICustomerWriteOnlyRepository customerWriteOnlyRepository;
 
-        public CustomerDeleteUseCase(IOutputPort output, ICustomerWriteOnlyRepository customerWriteOnlyRepository)
+        public CustomerDeleteUseCase(IOutputPort<Guid> output, ICustomerWriteOnlyRepository customerWriteOnlyRepository)
         {
             this.output = output;
             this.customerWriteOnlyRepository = customerWriteOnlyRepository;

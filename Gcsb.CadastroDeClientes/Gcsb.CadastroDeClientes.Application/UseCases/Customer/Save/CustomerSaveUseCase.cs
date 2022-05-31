@@ -1,17 +1,15 @@
 ﻿using Gcsb.CadastroDeClientes.Application.Boundaries.Customer;
 using Gcsb.CadastroDeClientes.Application.UseCases.Customer.Save.Handlers;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Gcsb.CadastroDeClientes.Application.UseCases.Customer.Save
 {
     public class CustomerSaveUseCase : ICustomerSaveUseCase
     {
-        private readonly IOutputPort output;
+        private readonly IOutputPort<Guid> output;
         private readonly ValidateHandler validateHandler;
 
-        public CustomerSaveUseCase(IOutputPort output, ValidateHandler validateHandler, SaveHandler saveHandler)
+        public CustomerSaveUseCase(IOutputPort<Guid> output, ValidateHandler validateHandler, SaveHandler saveHandler)
         {
             this.output = output;
             this.validateHandler = validateHandler;

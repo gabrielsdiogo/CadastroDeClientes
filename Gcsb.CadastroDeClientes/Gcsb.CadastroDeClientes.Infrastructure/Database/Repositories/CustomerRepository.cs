@@ -53,7 +53,7 @@ namespace Gcsb.CadastroDeClientes.Infrastructure.Database.Repositories
 
       
 
-        public IList<Customer> GetAll()
+        public List<Customer> GetAll()
         {
             var list = new List<Customer>();
             using (var context = new Context())
@@ -63,7 +63,7 @@ namespace Gcsb.CadastroDeClientes.Infrastructure.Database.Repositories
             return list;
         }
 
-        public IList<Customer> GetByFilter(Expression<Func<Customer, bool>> filter)
+        public List<Customer> GetByFilter(Expression<Func<Customer, bool>> filter)
         {
             using (var context = new Context())
             {

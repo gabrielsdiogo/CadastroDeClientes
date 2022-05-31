@@ -34,12 +34,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Builders\" />
-    <Folder Include="Cases\Application\" />
-    <Folder Include="Cases\Domain\" />
-    <Folder Include="Cases\Infrastructure\" />
     <Folder Include="Cases\Webapi\" />
-    <Folder Include="Mocks\" />
   </ItemGroup>
 
 </Project>

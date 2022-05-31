@@ -1,5 +1,6 @@
 ﻿using Autofac;
 using Gcsb.CadastroDeClientes.Infrastructure.Modules;
+using Gcsb.CadastroDeClientes.WebApi.Module;
 using Xunit;
 using Xunit.Abstractions;
 using Xunit.Frameworks.Autofac;
@@ -21,7 +22,7 @@ namespace Gcsb.CadastroDeClientes.Tests
         {
             builder.RegisterModule<ApplicationModule>();
             builder.RegisterModule<InfrastructureModule>();
-            //builder.RegisterModule<WebapiModule>();
+            builder.RegisterModule<WebapiModule>();
 
             SetMockedDependencies(builder);
         }

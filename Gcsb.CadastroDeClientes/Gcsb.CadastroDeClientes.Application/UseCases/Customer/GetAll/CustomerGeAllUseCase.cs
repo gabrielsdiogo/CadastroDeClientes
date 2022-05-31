@@ -1,14 +1,16 @@
 ﻿using Gcsb.CadastroDeClientes.Application.Boundaries.Customer;
 using Gcsb.CadastroDeClientes.Application.Repositories;
+using Gcsb.CadastroDeClientes.Domain.Customer;
+using System.Collections.Generic;
 
 namespace Gcsb.CadastroDeClientes.Application.UseCases.Customer.GetAll
 {
     public class CustomerGetAllUseCase : ICustomerGetAllUseCase
     {
         private readonly ICustomerReadOnlyRepository customerReadOnlyRepository;
-        private readonly IOutputPort output;
+        private readonly IOutputPort<List<Domain.Customer.Customer>> output;
 
-        public CustomerGetAllUseCase(ICustomerReadOnlyRepository customerReadOnlyRepository, IOutputPort output)
+        public CustomerGetAllUseCase(ICustomerReadOnlyRepository customerReadOnlyRepository, IOutputPort<List<Domain.Customer.Customer>> output)
         {
             this.customerReadOnlyRepository = customerReadOnlyRepository;
             this.output = output;
