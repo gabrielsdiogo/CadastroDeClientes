@@ -33,8 +33,4 @@
     <ProjectReference Include="..\Gcsb.CadastroDeClientes.WebApi\Gcsb.CadastroDeClientes.WebApi.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Cases\Webapi\" />
-  </ItemGroup>
-
 </Project>
